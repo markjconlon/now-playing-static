@@ -245,3 +245,31 @@ figure {
     float: right;
   }
 }
+@media (min-width: 992px) {
+  .movie-overview{
+    display: none;
+  }
+  .movie-poster{
+    display: block;
+  }
+  .movie-backdrop{
+    display: none;
+  }
+  main article:first-child .movie-poster{
+    display: none;
+  }
+  main article:first-child .movie-backdrop{
+    display: block;
+  }
+  main article:first-child .movie-overview{
+    display: block;
+  }
+  main .movie{
+    display: inline-block;
+    float: left;
+    width: 33.33333%;
+  }
+  main article:first-child {
+    width: 100%;
+  }
+}
