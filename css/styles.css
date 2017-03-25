@@ -229,7 +229,7 @@ figure {
   }
   .site-nav-list{
     position: relative;
-    top: 10%;
+    top: 10.5%;
   }
   .site-nav-list i{
     position: relative;
@@ -271,5 +271,17 @@ figure {
   }
   main article:first-child {
     width: 100%;
+  }
+  main article:last-child {
+    width: 100%;
+  }
+  main article:last-child .movie-poster{
+    display: none;
+  }
+  main article:last-child .movie-backdrop{
+    display: block;
+  }
+  main article:last-child .movie-overview{
+    display: block;
   }
 }
