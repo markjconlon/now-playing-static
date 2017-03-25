@@ -195,3 +195,44 @@ figure {
 .about > p {
   margin: 0;
 }
+@media (min-width: 768px) {
+  .movie-overview {
+    display: inline-block;
+  }
+  .site-nav-item {
+    float: none;
+    width: 20%;
+    height: 60px;
+    padding: 0.75em;
+    font-family: "Montserrat", "Source Code Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 0.6em;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .site-nav {
+    width: 10%;
+    top: 0;
+    padding: 0.4rem;
+    padding-top: 4rem;
+}
+  .site-logo {
+    position: fixed;
+    top: 0.6rem;
+    left: 0.8rem;
+    width: 50px;
+    height: 50px;
+    margin: 0;
+    z-index: 101;
+}
+.site-nav-list{
+  padding-left: 0.2rem;
+}
+main{
+  width: 90%;
+  float: right;
+}
+footer{
+  width:90%;
+  float: right;
+}
+}
